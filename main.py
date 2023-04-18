@@ -25,8 +25,8 @@ def add_product(product_name, quantity=1):
 def view_product():
     for key, value in saldytuvas.items():
         print( key, value)
-
-
+        
+    
 while True:
     print("""
     1- prideti produkta
